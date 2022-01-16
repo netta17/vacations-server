@@ -8,6 +8,7 @@ const loginFilters = require("./filters/login-filters");
 const fileupload = require("express-fileupload");
 const cors = require('cors');
 const server = express();
+//test
 
 server.use(cors({ origin: "http://localhost:3000"}));
 server.use(fileupload());
